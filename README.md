@@ -117,6 +117,6 @@ Describe the presentation part. How is the dashboard built? How long is the data
 
 Show the final results of your project. Give your final thoughts on how you think the project went. What could have been done in an other way, or even better? Pictures are nice!
 
-- [ ] Show final results of the project
+- [ ] Show final results of the projec
 - [ ] Pictures
 - [ ] *Video presentation
