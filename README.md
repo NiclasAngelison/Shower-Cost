@@ -27,9 +27,9 @@ I think if you see how much your regular routine shower costs, you'll know what 
 
 Explain all material that is needed. All sensors, where you bought them and their specifications. Please also provide pictures of what you have bought and what you are using.
 
-- [ ] List of material
-- [ ] What the different things (sensors, wires, controllers) do - short specifications
-- [ ] Where you bought them and how much they cost
+- [1] List of material
+- [2] What the different things (sensors, wires, controllers) do - short specifications
+- [3] Where you bought them and how much they cost
 
 
 > Example:
