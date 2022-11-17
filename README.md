@@ -36,12 +36,13 @@ Explain all material that is needed. All sensors, where you bought them and thei
 > Example:
 >| IoT Thing | For this         |
 >| --------- | ---------------- |
->| Perhaps   | a table          |
->| is a      | jolly good idea? |
+>| Perhaps   |                  |
+>| is a      |                  |
 >|-----------|------------------|
 >
 >In this project I have chosen to work with the Pycom LoPy4 device as seen in Fig. 1, it's a neat little device programmed by MicroPython and has several bands of connectivity. The device has many digital and analog input and outputs and is well suited for an IoT project.
->
+
+>![DOIT ESP32 Devkit 1V] (https://imagedelivery.net/7FIW-iB8fZn595Ch5hs_rg/2f2589cb-e5c6-4bc6-4448-a41f0b9d8800/w1000)
 >![LoPy!](https://pycom.io/wp-content/uploads/2018/08/lopySide-1.png)
 >Fig. 1. LoPy4 with headers. Pycom.io
 
