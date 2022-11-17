@@ -20,9 +20,9 @@ I think if you see how much your regular routine shower costs, you'll know what 
 
 ### Material
 
-1.DOIT ESP32 Devkit V1
-2.DS18B20 Temp sensor X2
-3.1" flow sensor
+- DOIT ESP32 Devkit V1
+- DS18B20 Temp sensor X2
+- 1" flow sensor YF-B10
 
 
 Explain all material that is needed. All sensors, where you bought them and their specifications. Please also provide pictures of what you have bought and what you are using.
