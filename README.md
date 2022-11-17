@@ -20,9 +20,10 @@ I think if you see how much your regular routine shower costs, you'll know what 
 
 ### Material
 
-- DOIT ESP32 Devkit V1
+- DOIT ESP32 Devkit V1                                  
 - DS18B20 Temp sensor X2
 - 1" flow sensor YF-B10
+- Some wireing and a dev board to setup the project
 
 
 Explain all material that is needed. All sensors, where you bought them and their specifications. Please also provide pictures of what you have bought and what you are using.
@@ -37,6 +38,7 @@ Explain all material that is needed. All sensors, where you bought them and thei
 >| --------- | ---------------- |
 >| Perhaps   | a table          |
 >| is a      | jolly good idea? |
+>|-----------|------------------|
 >
 >In this project I have chosen to work with the Pycom LoPy4 device as seen in Fig. 1, it's a neat little device programmed by MicroPython and has several bands of connectivity. The device has many digital and analog input and outputs and is well suited for an IoT project.
 >
