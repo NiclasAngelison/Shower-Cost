@@ -117,7 +117,7 @@ My test setup...
 ![IMG_1929](https://user-images.githubusercontent.com/117173570/202854273-d760f703-521a-4939-a5b8-75c5c88df3b7.jpg)
 
 
-Wiering
+#Wiring
 
 ![Skärmbild 2022-11-19 150440](https://user-images.githubusercontent.com/117173570/202854520-8ad32562-a8c8-458a-a682-8abe8c72525a.jpg)
 
