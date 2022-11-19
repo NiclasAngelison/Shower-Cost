@@ -147,7 +147,7 @@ The next step will be to test it with continuous flow from my garden hose, by fi
 
 ### Platforms and infrastructure
 
-I have used the Blynk cloud platform, and the Blynk app. I thought Blynk had a good and easy to understand get started tutorial, for someone like me who was completely new to IOT. Blynk has limited the features for those using the free version. But if you want to use Blynk's full potential, you can get access to all functions for $4.99. However, for my project they were not necessary.
+I have used the Blynk cloud platform, and the Blynk app. I thought Blynk had a good and easy to understand get started tutorial, for someone like me who was completely new to IOT. Blynk has limited the features for those using the free version. But if you want to use Blynk's full potential, you can get access to all functions for $4.99. However, for my project that was not necessary.
 
 https://blynk.io/ Just register and hit the QuickStart and you are on you way, easy even for me "MR Newbie"
 
@@ -160,61 +160,15 @@ https://blynk.io/ Just register and hit the QuickStart and you are on you way, e
 ### The code
 
 
-import BlynkLib
-from machine import Pin
-import time, sys
-from onewire import DS18X20
-from onewire import OneWire
-import random
-from machine import WDT
-import boot
-
-
-### The Calculation
+- [ ] Calculation
 
 ![Skärmbild 2022-11-19 165738](https://user-images.githubusercontent.com/117173570/202860056-0500b08a-4af7-43e0-96c9-1e1c1d061c6d.jpg)
 
    
 Second pice of code is total time and to multiply the flow/liter with the price kWh energy/liter and send that data to the Blybk cloud with WIFI from my local network to Vpin´s specified in the Blynk setup and the code. 
    
-   while True:
-    blynk.run()
-    blynk.virtual_write(16, random.randint(0, 100))
-    wdt.feed()
-    try:
-        start_pulseCount = 1
-        time.sleep(1)
-        start_pulseCount = 0
-        totalFlow = 0
-        flow = (pulseCount / 8.95 / 60) # Pulse frequency (Hz) = 7.5Q, Q is flow rate in L/sec.
-        while flow != 0: # While water is running
-            blynk.virtual_write(16, random.randint(0, 100))
-            wdt.feed()
-            if(time.time() - lastTrigger > sampleTimeInSec):
-                print("Time passed: {}".format(time.time() - lastTrigger))
-                lastTrigger = time.time()
-                print("The flow is: {}".format(flow))
-                totalFlow = totalFlow + flow # Adding current flow to the total
-                print("Total water flow is: {}".format(totalFlow))
-                showerTimeInSec()
-                print("Shower time in sec is: {}".format(showerTime))
-                pulseCount = 0
-                start_pulseCount = 1
-                time.sleep(1)
-                start_pulseCount = 0
-                flow = (pulseCount / 8.95 / 60) # Pulse frequency (Hz) = 7.5Q, Q is flow rate in L/sec.
-                #flow = random.randint(0, 10) # substitute this with line above when connecting sensor
-        print("shower done")
-        if(totalFlow != 0 and showerTime != 0):
-            averageWaterConsumptionInLiter = totalFlow / showerTime * 2 # sampling is every two seconds 
-        consumedWaterInLiter = averageWaterConsumptionInLiter * showerTime
-        showerCost = calculateCost(consumedWaterInLiter)
-        if(showerCost != 0.0): 
-            print("Sending Cost") # Send cost value to your tracking application
-            blynk.virtual_write(1, showerTime)
-            blynk.virtual_write(2, showerCost)
-        print("Shower Cost is: %.2f SEK" % (showerCost))
-        showerTime, lastTrigger, averageWaterConsumptionInLiter = 0, 0, 0 # Resetting variables for next shower session
+![Skärmbild 2022-11-19 170624](https://user-images.githubusercontent.com/117173570/202860385-1ec50d50-d8f4-40a0-ada6-c212227a314d.jpg)
+
         
  We also added a WDT (watchdogtimer) so if and when something crashes the board reboots.
         
