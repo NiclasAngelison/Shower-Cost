@@ -149,7 +149,7 @@ The next step will be to test it with continuous flow from my garden hose, by fi
 
 I have used the Blynk cloud platform, and the Blynk app. I thought Blynk had a good and easy to understand get started tutorial, for someone like me who was completely new to IOT. Blynk has limited the features for those using the free version. But if you want to use Blynk's full potential, you can get access to all functions for $4.99. However, for my project they were not necessary.
 
-https://blynk.io/ Just register and hit the QuickStart and you are on you way very easy even for me "MR Newbie"
+https://blynk.io/ Just register and hit the QuickStart and you are on you way, easy even for me "MR Newbie"
 
 
 ![Skärmbild 2022-11-19 154856](https://user-images.githubusercontent.com/117173570/202856801-fc92117f-8440-4cac-8a34-ae403a408b6a.jpg)
