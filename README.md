@@ -128,8 +128,19 @@ The next step will be to test it with continuous flow from my garden hose, by fi
 
 
 
+![tratt](https://user-images.githubusercontent.com/117173570/202855811-7633379f-3a44-42d7-aa95-4153dc59a25a.jpeg)
 
 
+
+
+
+![slang](https://user-images.githubusercontent.com/117173570/202855828-8330dd8d-d589-462c-8197-7199d8849af4.jpeg)
+
+
+
+![Dunk](https://user-images.githubusercontent.com/117173570/202855835-8d9ae25a-5ca5-4238-9055-560336b2616a.jpeg)
+
+![flowsensor install](https://user-images.githubusercontent.com/117173570/202855843-89bbb11d-2a8e-4d8c-a1a7-5e8bbb06195b.jpeg)
 
 
 How is all the electronics connected? Describe all the wiring, good if you can show a circuit diagram. Be specific on how to connect everything, and what to think of in terms of resistors, current and voltage. Is this only for a development setup or could it be used in production?
