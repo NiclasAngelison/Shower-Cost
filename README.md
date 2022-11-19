@@ -25,8 +25,8 @@ I think if you see how much your regular routine shower costs, you'll know what 
 
 
 
+![Skärmbild 2022-11-19 125727](https://user-images.githubusercontent.com/117173570/202850059-5dd53917-10b1-402a-92b8-18f4c1dbe2ef.jpg)
 
-![Skärmbild 2022-11-19 125727](https://user-images.githubusercontent.com/117173570/202849832-febdb551-3fe3-4de7-bd35-3fa573adf6a1.jpg)
 
 
 
