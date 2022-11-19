@@ -117,8 +117,9 @@ My test setup...
 ![IMG_1929](https://user-images.githubusercontent.com/117173570/202854273-d760f703-521a-4939-a5b8-75c5c88df3b7.jpg)
 
 
+Wiering
 
-
+![Skärmbild 2022-11-19 150440](https://user-images.githubusercontent.com/117173570/202854520-8ad32562-a8c8-458a-a682-8abe8c72525a.jpg)
 
 
 How is all the electronics connected? Describe all the wiring, good if you can show a circuit diagram. Be specific on how to connect everything, and what to think of in terms of resistors, current and voltage. Is this only for a development setup or could it be used in production?
