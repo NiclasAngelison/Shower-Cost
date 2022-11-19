@@ -172,28 +172,8 @@ import boot
 
 ### The Calculation
 
-The code below is my calculation to convert two temperatures, Hot and coldwater and a fixed Electricity Price to kWhEnergy for A Liter warmwater.
+![Skärmbild 2022-11-19 165738](https://user-images.githubusercontent.com/117173570/202860056-0500b08a-4af7-43e0-96c9-1e1c1d061c6d.jpg)
 
-def calculateCost(consumedWaterInLiter):
-   print("received consumed water in liter: {}".format(consumedWaterInLiter))
-   pricePerLiter = 2.21 # Electricity Price for kWh in SEK incl all
-   hotWaterTemperature.start_conversion()
-   coldWaterTemperature.start_conversion()
-   time.sleep(1)
-   hotWater = hotWaterTemperature.read_temp_async()
-   coldWater = coldWaterTemperature.read_temp_async()
-   print(hotWater)
-   print(coldWater)
-   if(hotWater is not None and coldWater is not None):
-    tempDifference = hotWater - coldWater
-   else:
-    print("testing....")
-    sys.exit("Temperature returned None!") 
-   print("hot/cold water temp diff: {}".format(tempDifference))
-   kWhEnergyForALiter = 4.18 * tempDifference / 3600
-   print("kWh/liter: {}".format(kWhEnergyForALiter))
-   consumptionPrice = kWhEnergyForALiter * pricePerLiter * consumedWaterInLiter
-   return consumptionPrice
    
 Second pice of code is total time and to multiply the flow/liter with the price kWh energy/liter and send that data to the Blybk cloud with WIFI from my local network to Vpin´s specified in the Blynk setup and the code. 
    
