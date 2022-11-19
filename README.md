@@ -65,14 +65,10 @@ I think if you see how much your regular routine shower costs, you'll know what 
 
 
 
-Explain all material that is needed. All sensors, where you bought them and their specifications. Please also provide pictures of what you have bought and what you are using.
-
-- [1] List of material
-- [2] What the different things (sensors, wires, controllers) do - short specifications
-- [3] Where you bought them and how much they cost
 
 
-> Example:
+
+
 >| Name      | Price | Link                                                                            | 
 >| --------- | ------|---------------------------------------------------------------------------------|
 >| ESP32     |  9€   | https://sizable.se/P.CE9S1/ESP32-30-pin                                         |
@@ -85,14 +81,19 @@ Explain all material that is needed. All sensors, where you bought them and thei
 
 
 
->>>In this project I have chosen to work with the Pycom LoPy4 device as seen in Fig. 1, it's a neat little device programmed by MicroPython and has several bands of connectivity. The device has many digital and analog input and outputs and is well suited for an IoT project.
 
-
->![LoPy!](https://pycom.io/wp-content/uploads/2018/08/lopySide-1.png)
->Fig. 1. LoPy4 with headers. Pycom.io
 
 
 ### Environment setup
+
+I wouldn't call myself a coder, rather a newbie. But I had these steps presented to me and it worked. I have put the links below. I'm using a Windows PC but it's available for Mac OS as well.
+
+I used Thonny for my IDE and hade to flash the board with ny firmware (see steps in each link below)
+
+### Project structure
+
+![Skärmbild 2022-11-19 140542](https://user-images.githubusercontent.com/117173570/202852295-fccae283-3cb1-423a-bc16-944f7931b7bd.jpg)
+
 
 How is the device programmed. Which IDE are you using. Describe all steps from flashing the firmware, installing plugins in your favorite editor. How flashing is done on MicroPython. The aim is that someone should be able to understand how to reproduce your project.
 
