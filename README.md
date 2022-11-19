@@ -66,9 +66,9 @@ I think if you see how much your regular routine shower costs, you'll know what 
 
 
 
+### What, how much and where?
 
-
-
+>|-----------------------------------------------------------------------------------------------------|
 >| Name      | Price | Link                                                                            | 
 >| --------- | ------|---------------------------------------------------------------------------------|
 >| ESP32     |  9€   | https://sizable.se/P.CE9S1/ESP32-30-pin                                         |
