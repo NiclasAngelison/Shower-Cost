@@ -98,8 +98,8 @@ I used Thonny for my IDE and hade to flash the board with ny firmware (see steps
 
 
 
--[Flash ESP32] https://nabucasa.github.io/esp-web-flasher/
--[Install Nodejs] https://nodejs.org/en/
+- [Flash ESP32] https://nabucasa.github.io/esp-web-flasher/
+- [Install Nodejs] https://nodejs.org/en/
 
 
 
