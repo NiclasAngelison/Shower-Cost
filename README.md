@@ -117,9 +117,19 @@ My test setup...
 ![IMG_1929](https://user-images.githubusercontent.com/117173570/202854273-d760f703-521a-4939-a5b8-75c5c88df3b7.jpg)
 
 
-#Wiring
+Wiring
 
 ![Skärmbild 2022-11-19 150440](https://user-images.githubusercontent.com/117173570/202854520-8ad32562-a8c8-458a-a682-8abe8c72525a.jpg)
+
+
+When everyting was working i started to calibrate the flowsensor. The sensor spec was Q=7.5 ( Q = L/min ) but this was all wrong.
+I start by putting the test to pour exactly 4 liters of water through the flow sensor. The result was Q = 8.25/min.
+The next step will be to test it with continuous flow from my garden hose, by filling a 25Liter canister. The "Q" factor changes again to 8.95/min
+
+
+
+
+
 
 
 How is all the electronics connected? Describe all the wiring, good if you can show a circuit diagram. Be specific on how to connect everything, and what to think of in terms of resistors, current and voltage. Is this only for a development setup or could it be used in production?
