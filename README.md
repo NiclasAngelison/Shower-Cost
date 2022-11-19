@@ -70,8 +70,11 @@ I think if you see how much your regular routine shower costs, you'll know what 
 
 
 >| Name      | Price | Link                                                                            | 
+>
 >| ESP32     |  9€   | https://sizable.se/P.CE9S1/ESP32-30-pin                                         |
+>
 >| DS20B18   |  3€   | https://sizable.se/P.29Z3D/DS18B20-Temperatursensor-vattentat-med-1-meter-kabel |
+>
 >| YF-B10    |  20€  | https://digitalzakka.com/product/1-inch-water-flow-sensor-hall-sensor-switch-flow-meter-dn25-brass-water-meter-industrial-turbine-flowmeter-water-flow-sensor/?srsltid=AYJSbAd-aCvesRoM9pQvGGYC5gSx71MORl1fTLEDKyoSVcGTEDcChxkC-Xw |    
 
 
