@@ -78,10 +78,12 @@ Explain all material that is needed. All sensors, where you bought them and thei
 >| ESP32     |  9€   | https://sizable.se/P.CE9S1/ESP32-30-pin                                         |
 >|-----------|-------|---------------------------------------------------------------------------------|
 >| DS20B18   |  3€   | https://sizable.se/P.29Z3D/DS18B20-Temperatursensor-vattentat-med-1-meter-kabel |
->| YF-B10    |  20€  | https://www.amazon.se/Vattenfl%C3%B6dessensor-fl%C3%B6desm%C3%A4tare-vattenfl%C3
->%B6desomkopplare-vattenv%C3%A4rmare-fl%C3%B6desm%C3%A4tningsenhet/dp/B089KJFVLV/ref=sr_1_79?crid=1QLML3ZAZKTIV&keywords=flow%2Bsensor&qid=1668860955&qu=eyJxc2MiOiIxLjUwIiwicXNhIjoiMS4zNyIsInFzcC
->I6IjAuODEifQ%3D%3D&sprefix=flow%2Bse%2Caps%2C91&sr=8-79&th=1
+>|-----------|-------|---------------------------------------------------------------------------------|
+>| YF-B10    |  20€  | https://www.amazon.se/Vattenfl%C3%B6dessensor-fl%C3%B6desm%C3%A4tare-vattenfl%C3%B6desomkopplare-vattenv%C3%A4rmare-fl%C3%B6desm%C3%A4tningsenhet/dp/B089KJFVLV/ref=sr_1_79?crid=1QLML3ZAZKTIV&keywords=flow%2Bsensor&qid=1668860955&qu=eyJxc2MiOiIxLjUwIiwicXNhIjoiMS4zNyIsInFzcCI6IjAuODEifQ%3D%3D&sprefix=flow%2Bse%2Caps%2C91&sr=8-79&th=1                                                                                |
 >|           |       |                                                                                 |
+>|           |       |                                                                                 |
+>|           |       |                                                                                 |
+>|-----------------------------------------------------------------------------------------------------|
 
 
 
