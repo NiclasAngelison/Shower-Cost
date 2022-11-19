@@ -174,47 +174,21 @@ Second pice of code is total time and to multiply the flow/liter with the price 
         
         
         
-        
+       
 
-Import core functions of your code here, and don't forget to explain what you have done. Do not put too much code here, focus on the core functionalities. Have you done a specific function that does a calculation, or are you using clever function for sending data on two networks? Or, are you checking if the value is reasonable etc. Explain what you have done, including the setup of the network, wireless, libraries and all that is needed to understand.
-
-
-```python=
-import this as that
-
-def my_cool_function():
-    print('not much here')
-
-s.send(package)
-
-# Explain your code!
-```
 
 ### The physical network layer
 
-How is the data transmitted to the internet or local server? Describe the package format. All the different steps that are needed in getting the data to your end-point. Explain both the code and choice of wireless protocols.
-
-- [ ] How often is the data sent? 
-- [ ] Which wireless protocols did you use (WiFi, LoRa, etc ...)?
-- [ ] Which transport protocols were used (MQTT, webhook, etc ...)
-- [ ] Elaborate on the design choices regarding data transmission and wireless protocols. That is how your choices affect the device range and battery consumption.
-- [ ] What alternatives did you evaluate?
-- [ ] What are the design limitations of your choices?
-
-### Visualisation and user interface
-
-Describe the presentation part. How is the dashboard built? How long is the data preserved in the database?
-
-- [ ] Provide visual examples on how the visualisation/UI looks. Pictures are needed.
-- [ ] How often is data saved in the database. What are the design choices?
-- [ ] Explain your choice of database. What kind of database. Motivate.
-- [ ] Automation/triggers of the data.
-- [ ] Alerting services. Are any used, what are the options and how are they in that case included.
+The data is sent when and if there are a reading from the flow sensor via my local wifi network to the blynk cloud using MQTT, then it projects to the Blynk app.
 
 ### Finalizing the design
 
-Show the final results of your project. Give your final thoughts on how you think the project went. What could have been done in an other way, or even better? Pictures are nice!
+https://user-images.githubusercontent.com/117173570/202861231-ec31e940-e48c-4169-aa47-ba6672c22482.mov
 
-- [ ] Show final results of the projec
-- [ ] Pictures
-- [ ] *Video presentation
+
+
+This type of project, "How long do you shower and how much does it cost" is not appreciated by my teenage children who spend the most time in the shower.
+However, it gave an indication of what it costs and you can change your habits accordingly if you want to save on energy consumption. Now I have been lucky enough to lock in my electricity contract at a low level for three years. so this doesn't affect me that much, but those with variable electricity contracts will notice a big difference in the coming winter months.
+
+
+The End!
