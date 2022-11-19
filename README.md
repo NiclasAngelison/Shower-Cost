@@ -141,24 +141,21 @@ The next step will be to test it with continuous flow from my garden hose, by fi
 ![Dunk](https://user-images.githubusercontent.com/117173570/202855835-8d9ae25a-5ca5-4238-9055-560336b2616a.jpeg)
 
 ![flowsensor install](https://user-images.githubusercontent.com/117173570/202855843-89bbb11d-2a8e-4d8c-a1a7-5e8bbb06195b.jpeg)
+### In the picture above you can see my installation of the flow sensor and the two temperature sensors
 
 
-How is all the electronics connected? Describe all the wiring, good if you can show a circuit diagram. Be specific on how to connect everything, and what to think of in terms of resistors, current and voltage. Is this only for a development setup or could it be used in production?
-
-- [ ] Circuit diagram (can be hand drawn) (Fritzing, Tinkercad, etc.)
-- [ ] Electrical calculations
-- [ ] Limitations of hardware depending on design choices.
-- [ ] Discussion about a way forward - is it possible to scale?
 
 ### Platforms and infrastructure
 
-Describe your choice of platform(s). You need to describe how the IoT-platform works, and also the reasoning and motivation about your choices. Have you developed your own platform, or used 
+I have used the Blynk cloud platform, and the Blynk app. I thought Blynk had a good and easy to understand get started tutorial, for someone like me who was completely new to IOT. Blynk has limited the features for those using the free version. But if you want to use Blynk's full potential, you can get access to all functions for $4.99. However, for my project they were not necessary.
 
-Is your platform based on a local installation or a cloud? Do you plan to use a paid subscription or a free? Describe the different alternatives on going forward if you want to scale your idea.
+https://blynk.io/ Just register and hit the QuickStart and you are on you way very easy even for me "MR Newbie"
 
-- [ ] Describe platform in terms of functionality
-- [ ] Explain and elaborate what made you choose this platform
-- [ ] Provide a pricing discussion. What are the prices for different platforms, and what are the pros and cons of using a low-code platform vs. developing yourself?
+
+![Skärmbild 2022-11-19 154856](https://user-images.githubusercontent.com/117173570/202856801-fc92117f-8440-4cac-8a34-ae403a408b6a.jpg)
+
+
+
 
 ### The code
 
