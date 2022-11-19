@@ -94,12 +94,16 @@ I used Thonny for my IDE and hade to flash the board with ny firmware (see steps
 
 ![Skärmbild 2022-11-19 140542](https://user-images.githubusercontent.com/117173570/202852295-fccae283-3cb1-423a-bc16-944f7931b7bd.jpg)
 
-
-
-
+Started with flashing the ESP32
 
 - [Flash ESP32] https://nabucasa.github.io/esp-web-flasher/
-- [Install Nodejs] https://nodejs.org/en/
+
+- [Install Nodejs] https://nodejs.org/en/ Follow the instructions...
+- [ ] install Node js (needed for the plugin)
+- [ ] install the Atom IDE
+- [ ] add the Pymakr plugin to your Atom
+
+
 
 
 
