@@ -98,10 +98,12 @@ Started with flashing the ESP32
 
 - [Flash ESP32] https://nabucasa.github.io/esp-web-flasher/
 
-- [Install Nodejs] https://nodejs.org/en/ Follow the instructions...
-- [ ] install Node js (needed for the plugin)
-- [ ] install the Atom IDE
-- [ ] add the Pymakr plugin to your Atom
+- [ ] https://hackmd.io/@lnu-iot/SydH7MTcw#Windows-OS
+
+- [ ] Follow the instructions...
+- [ ] install Node js (needed for the plugin) https://nodejs.org/en/ 
+- [ ] install the Atom IDE https://atom.io/
+- [ ] add the Pymakr plugin to your Atom 
 
 
 ### Putting everything together
