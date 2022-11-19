@@ -165,7 +165,7 @@ https://blynk.io/ Just register and hit the QuickStart and you are on you way, e
 ![Skärmbild 2022-11-19 165738](https://user-images.githubusercontent.com/117173570/202860056-0500b08a-4af7-43e0-96c9-1e1c1d061c6d.jpg)
 
    
-Second pice of code is total time and to multiply the flow/liter with the price kWh energy/liter and send that data to the Blybk cloud with WIFI from my local network to Vpin´s specified in the Blynk setup and the code. 
+Second pice of code is total time and to multiply the flow/liter with the price kWh energy/liter and send that data to the Blynk cloud with WIFI from my local network to Vpin´s specified in the Blynk setup and the code. 
    
 ![Skärmbild 2022-11-19 170624](https://user-images.githubusercontent.com/117173570/202860385-1ec50d50-d8f4-40a0-ada6-c212227a314d.jpg)
 
