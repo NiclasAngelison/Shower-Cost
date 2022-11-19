@@ -124,7 +124,7 @@ Wiring
 
 When everyting was working i started to calibrate the flowsensor. The sensor spec was Q=7.5 ( Q = L/min ) but this was all wrong.
 I start by putting the test to pour exactly 4 liters of water through the flow sensor. The result was Q = 8.25/min.
-The next step will be to test it with continuous flow from my garden hose, by filling a 25Liter canister. The "Q" factor changes again to 8.95/min
+The next step will be to test it with continuous flow from my garden hose, by filling a 25Liter canister. The "Q" factor changes again to 8.95/min. Q = 8.95 is an important factor in all the calculations that you will see in the code.
 
 
 
