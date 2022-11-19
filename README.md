@@ -104,17 +104,22 @@ Started with flashing the ESP32
 - [ ] add the Pymakr plugin to your Atom
 
 
-
-
-
-How is the device programmed. Which IDE are you using. Describe all steps from flashing the firmware, installing plugins in your favorite editor. How flashing is done on MicroPython. The aim is that someone should be able to understand how to reproduce your project.
-
-- [ ] Chosen IDE
-- [ ] How the code is uploaded
-- [ ] How is your project structured (important)
-- [ ] Steps that you needed to do for your computer. Installation of Node.js, extra drivers, etc.
-
 ### Putting everything together
+
+My test setup...
+
+
+
+
+
+
+
+![IMG_1929](https://user-images.githubusercontent.com/117173570/202854273-d760f703-521a-4939-a5b8-75c5c88df3b7.jpg)
+
+
+
+
+
 
 How is all the electronics connected? Describe all the wiring, good if you can show a circuit diagram. Be specific on how to connect everything, and what to think of in terms of resistors, current and voltage. Is this only for a development setup or could it be used in production?
 
