@@ -20,12 +20,48 @@ I think if you see how much your regular routine shower costs, you'll know what 
 
 ### Material
 
-- DOIT ESP32 Devkit V1                                  
+- DOIT ESP32 Devkit V1
+
+
+
+
+
+![Skärmbild 2022-11-19 125727](https://user-images.githubusercontent.com/117173570/202849832-febdb551-3fe3-4de7-bd35-3fa573adf6a1.jpg)
+
+
+
 - DS18B20 Temp sensor X2
+
+
+
+
+
+
+![Skärmbild 2022-11-19 125908](https://user-images.githubusercontent.com/117173570/202849840-674dd9f1-7c41-4529-ae35-b5451fa125ba.jpg)
+
+
+
+
+
+
 - 1" flow sensor YF-B10
+
+
+
+
+
+
+
+![Skärmbild 2022-11-19 130101](https://user-images.githubusercontent.com/117173570/202849848-ce1eab49-aaac-456a-8e72-28d9e9baada8.jpg)
+
+
+
+
+
+
 - Some wireing and a dev board to setup the project
 
-![Bild11](https://user-images.githubusercontent.com/117173570/202849036-1dcd13b4-8b1e-4193-a060-e2ab309fe356.jpg)
+
 
 
 
