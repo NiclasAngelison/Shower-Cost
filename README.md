@@ -95,6 +95,14 @@ I used Thonny for my IDE and hade to flash the board with ny firmware (see steps
 ![Skärmbild 2022-11-19 140542](https://user-images.githubusercontent.com/117173570/202852295-fccae283-3cb1-423a-bc16-944f7931b7bd.jpg)
 
 
+
+
+
+-[Flash ESP32]
+-[https://nodejs.org/en/]
+
+
+
 How is the device programmed. Which IDE are you using. Describe all steps from flashing the firmware, installing plugins in your favorite editor. How flashing is done on MicroPython. The aim is that someone should be able to understand how to reproduce your project.
 
 - [ ] Chosen IDE
