@@ -24,7 +24,9 @@ I think if you see how much your regular routine shower costs, you'll know what 
 - DS18B20 Temp sensor X2
 - 1" flow sensor YF-B10
 - Some wireing and a dev board to setup the project
-![Bild1](https://user-images.githubusercontent.com/117173570/202539494-c2ede1b7-e640-4145-9df6-5cff5d3bdb66.jpg)
+
+![Bild11](https://user-images.githubusercontent.com/117173570/202849036-1dcd13b4-8b1e-4193-a060-e2ab309fe356.jpg)
+
 
 
 Explain all material that is needed. All sensors, where you bought them and their specifications. Please also provide pictures of what you have bought and what you are using.
