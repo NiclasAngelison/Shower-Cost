@@ -88,7 +88,7 @@ I think if you see how much your regular routine shower costs, you'll know what 
 
 I wouldn't call myself a coder, rather a newbie. But I had these steps presented to me and it worked. I have put the links below. I'm using a Windows PC but it's available for Mac OS as well.
 
-I used Thonny for my IDE and hade to flash the board with ny firmware (see steps in each link below)
+I used Thonny for my IDE and hade to flash the board with new firmware (see steps in each link below)
 
 ### Project structure
 
@@ -158,6 +158,89 @@ https://blynk.io/ Just register and hit the QuickStart and you are on you way ve
 
 
 ### The code
+
+
+import BlynkLib
+from machine import Pin
+import time, sys
+from onewire import DS18X20
+from onewire import OneWire
+import random
+from machine import WDT
+import boot
+
+
+### The Calculation
+
+The code below is my calculation to convert two temperatures, Hot and coldwater and a fixed Electricity Price to kWhEnergy for A Liter warmwater.
+
+def calculateCost(consumedWaterInLiter):
+   print("received consumed water in liter: {}".format(consumedWaterInLiter))
+   pricePerLiter = 2.21 # Electricity Price for kWh in SEK incl all
+   hotWaterTemperature.start_conversion()
+   coldWaterTemperature.start_conversion()
+   time.sleep(1)
+   hotWater = hotWaterTemperature.read_temp_async()
+   coldWater = coldWaterTemperature.read_temp_async()
+   print(hotWater)
+   print(coldWater)
+   if(hotWater is not None and coldWater is not None):
+    tempDifference = hotWater - coldWater
+   else:
+    print("testing....")
+    sys.exit("Temperature returned None!") 
+   print("hot/cold water temp diff: {}".format(tempDifference))
+   kWhEnergyForALiter = 4.18 * tempDifference / 3600
+   print("kWh/liter: {}".format(kWhEnergyForALiter))
+   consumptionPrice = kWhEnergyForALiter * pricePerLiter * consumedWaterInLiter
+   return consumptionPrice
+   
+Second pice of code is total time and to multiply the flow/liter with the price kWh energy/liter and send that data to the Blybk cloud with WIFI from my local network to Vpin´s specified in the Blynk setup and the code. 
+   
+   while True:
+    blynk.run()
+    blynk.virtual_write(16, random.randint(0, 100))
+    wdt.feed()
+    try:
+        start_pulseCount = 1
+        time.sleep(1)
+        start_pulseCount = 0
+        totalFlow = 0
+        flow = (pulseCount / 8.95 / 60) # Pulse frequency (Hz) = 7.5Q, Q is flow rate in L/sec.
+        while flow != 0: # While water is running
+            blynk.virtual_write(16, random.randint(0, 100))
+            wdt.feed()
+            if(time.time() - lastTrigger > sampleTimeInSec):
+                print("Time passed: {}".format(time.time() - lastTrigger))
+                lastTrigger = time.time()
+                print("The flow is: {}".format(flow))
+                totalFlow = totalFlow + flow # Adding current flow to the total
+                print("Total water flow is: {}".format(totalFlow))
+                showerTimeInSec()
+                print("Shower time in sec is: {}".format(showerTime))
+                pulseCount = 0
+                start_pulseCount = 1
+                time.sleep(1)
+                start_pulseCount = 0
+                flow = (pulseCount / 8.95 / 60) # Pulse frequency (Hz) = 7.5Q, Q is flow rate in L/sec.
+                #flow = random.randint(0, 10) # substitute this with line above when connecting sensor
+        print("shower done")
+        if(totalFlow != 0 and showerTime != 0):
+            averageWaterConsumptionInLiter = totalFlow / showerTime * 2 # sampling is every two seconds 
+        consumedWaterInLiter = averageWaterConsumptionInLiter * showerTime
+        showerCost = calculateCost(consumedWaterInLiter)
+        if(showerCost != 0.0): 
+            print("Sending Cost") # Send cost value to your tracking application
+            blynk.virtual_write(1, showerTime)
+            blynk.virtual_write(2, showerCost)
+        print("Shower Cost is: %.2f SEK" % (showerCost))
+        showerTime, lastTrigger, averageWaterConsumptionInLiter = 0, 0, 0 # Resetting variables for next shower session
+        
+ We also added a WDT (watchdogtimer) so if and when something crashes the board reboots.
+        
+        
+        
+        
 
 Import core functions of your code here, and don't forget to explain what you have done. Do not put too much code here, focus on the core functionalities. Have you done a specific function that does a calculation, or are you using clever function for sending data on two networks? Or, are you checking if the value is reasonable etc. Explain what you have done, including the setup of the network, wireless, libraries and all that is needed to understand.
 
