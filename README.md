@@ -8,15 +8,16 @@
 
 # With an ongoing energy crisis and high heating costs throughout Europe, I thought I would find out how much a shower costs. So my project is to show how long do you shower and how much does it cost? With an ESP32 board, two Dallas DS18B20 temerature senors and a FLow sensor YF-B10 i manage to setup Blynk cloud and the data i presented in the Blynk App. The projekt took about one week to total to finish.
 
-- [22] Objectives
-- ### Material
-- ### Environment setup
-- ### Project structure
-- ### Putting everything together
-- ### Platforms and infrastructure
-- ### The code
-- ### The physical network layer
-- ### Finalizing the design
+
+- [Objectives](#Objectives)
+- [Material](#Material)
+- [Cost](#Cost)
+- [Environment setup](#Environment-setup)
+- [Putting everything together](#Putting-everything-together)
+- [Platforms and infrastructure](#Platforms-and-infrastructure)
+- [The code](#The-code)
+- [The physical network layer](#The-physical-network-layer)
+- [Finalizing the design](#Finalizing-the-design)
 
 
 ### Objectives
@@ -74,7 +75,7 @@ I think if you see how much your regular routine shower costs, you'll know what 
 
 
 
-### What, how much and where?
+### Cost
 
 
 >| Name      | Price | Link                                                                            | 
